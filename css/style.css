@@ -1,0 +1,77 @@
+body {
+    background-image: url(../images/background.png);
+}
+
+.wrapper {
+    background-color: white;
+    padding: 50px
+}
+
+#topPic {
+    background-image: url("../images/Overwatch_text_logo.png");
+    height: 17%;
+    width: 100%;
+    background-size: 100% auto;
+}
+
+#logo {
+    float: right;
+    height: 100%;
+    margin-right: 8%;
+}
+
+#logo img {
+    height: 100%;
+}
+
+.dropbtn {
+    background-color: #FAA02E;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #FCBD49;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+.subheader {
+    font-size: 30px;
+    color: dimgray;
+    margin: 70px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 15px
+}
